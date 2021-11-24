@@ -1,0 +1,50 @@
+body {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: salmon;
+}
+header {
+    
+    background: rgb(221, 181, 181);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px 0; 
+    opacity: 0.8;
+    font-size: 12px;
+    font-family:fantasy;
+}
+header h1:hover {
+    transform: scale(1.05);
+}
+span {
+    color:tomato;
+    font-style: italic;
+}
+.textoprincipal {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 100px 400px;
+}
+h3 {
+    padding: 10px 0;
+    font-size: 30px;
+    background: wheat;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+}
+.div2 {
+    background: salmon;
+    color: black;
+    opacity: 0.5;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 1px 0;
+    width: 100%;
+    height: 30px;
+}
