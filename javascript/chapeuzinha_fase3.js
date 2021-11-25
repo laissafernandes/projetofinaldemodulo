@@ -2,7 +2,10 @@ function escolha (){
     setTimeout(() => {
         alert('Bem vindo a fase 3!')
     var decide = prompt('Então ela pensa: \n 1-Ela entra e vê o que está acontecendo.\n 2- Ela olha para dentro da casa da Vovó do lado de fora pela janela.');
-    
+    while(decide != 1 && decide!=2){
+        alert('opção invalida')
+        decide = prompt ('Escolha entre 1 e 2')
+    }
        
     if(decide == 1){
         var decide = alert('Ela vê o Lobo Mau prestes a devorar a Vovó. E com uma faca que encontra-se na mesa mata o Lobo Mau e salva a sua Vovó.')

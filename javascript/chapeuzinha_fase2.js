@@ -1,8 +1,11 @@
 function escolha (){
     setTimeout(() => {
         alert('Bem vindo a fase 2!')
-    var decide = prompt('Mas, em um determinado momento ela se depara com uma arvore linda e explendorosa e ai ela pensa: \n 1 - Continuo caminhando, pois a Vovó está me esperando. \n 2- Vou me sentar um pouco abaixo da árvore para descansar.')
-    
+    var decide = prompt('E ai ela pensa: \n 1 - Continuo caminhando, pois a Vovó está me esperando. \n 2- Vou me sentar um pouco abaixo da árvore para descansar.')
+    while(decide != 1 && decide!=2){
+        alert('opção invalida')
+        decide = prompt ('Escolha entre 1 e 2')
+    }
        
     if(decide == 1){
         var decide = alert('Chapeuzinho está muito cansada, mas já está perto da casa de sua Vovó. Ela continua a caminhar, pois já está escurecendo e ela quer encontrar a Vovó acordada.')
